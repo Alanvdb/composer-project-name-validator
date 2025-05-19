@@ -8,8 +8,8 @@ use AlanVdb\Composer\ComposerProjectNameValidator;
 
 class ComposerProjectNameValidatorFactory implements ComposerProjectNameValidatorFactoryInterface
 {
-    public function create() : ValidatorInterface
+    public function create(string $errorMessage = 'The project name must be in the format vendor/package.') : ValidatorInterface
     {
-        return new ComposerProjectNameValidator();
+        return new ComposerProjectNameValidator($errorMessage);
     }
 }

@@ -15,6 +15,6 @@
         }
     ],
     "require": {
-        "alanvdb/validator-interface": "1.0"
+        "alanvdb/validator-interface": "^2.0"
     }
 }
