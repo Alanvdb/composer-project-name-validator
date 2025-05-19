@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "alanvdb/validator-interface",
-            "version": "v2.0",
+            "version": "v2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Alanvdb/validator-interface.git",
-                "reference": "caa4d49634925fa6f621628063c5849de3c1c02b"
+                "reference": "ea96f0053c101a28d61d99dab63e3257271c2f51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Alanvdb/validator-interface/zipball/caa4d49634925fa6f621628063c5849de3c1c02b",
-                "reference": "caa4d49634925fa6f621628063c5849de3c1c02b",
+                "url": "https://api.github.com/repos/Alanvdb/validator-interface/zipball/ea96f0053c101a28d61d99dab63e3257271c2f51",
+                "reference": "ea96f0053c101a28d61d99dab63e3257271c2f51",
                 "shasum": ""
             },
             "type": "library",
@@ -39,9 +39,9 @@
             "description": "Simple validator interface",
             "support": {
                 "issues": "https://github.com/Alanvdb/validator-interface/issues",
-                "source": "https://github.com/Alanvdb/validator-interface/tree/v2.0"
+                "source": "https://github.com/Alanvdb/validator-interface/tree/v2.1.2"
             },
-            "time": "2025-05-19T01:33:53+00:00"
+            "time": "2025-05-19T02:21:12+00:00"
         }
     ],
     "packages-dev": [],
