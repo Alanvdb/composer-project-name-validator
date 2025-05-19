@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5f227aa3d21f60820f372f59b3c7ff28",
+    "packages": [
+        {
+            "name": "alanvdb/validator-interface",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Alanvdb/validator-interface.git",
+                "reference": "a079012eac0a442bc4ac5850b431737699814644"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Alanvdb/validator-interface/zipball/a079012eac0a442bc4ac5850b431737699814644",
+                "reference": "a079012eac0a442bc4ac5850b431737699814644",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AlanVdb\\Validator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "alanvdb",
+                    "email": "alanvdb.coder@gmail.com"
+                }
+            ],
+            "description": "Simple validator interface",
+            "support": {
+                "issues": "https://github.com/Alanvdb/validator-interface/issues",
+                "source": "https://github.com/Alanvdb/validator-interface/tree/v1.0"
+            },
+            "time": "2025-05-18T17:10:28+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
