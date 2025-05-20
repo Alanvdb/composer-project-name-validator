@@ -15,6 +15,7 @@
         }
     ],
     "require": {
-        "alanvdb/validator-interface": "^2.0"
+        "alanvdb/validator-interface": "^2.0",
+        "alanvdb/composer-project-name-validator-interfaces": "^2.0"
     }
 }

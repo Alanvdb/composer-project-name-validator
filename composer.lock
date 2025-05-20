@@ -4,8 +4,48 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fbc3c055bda42faf9197f7ccb88f63e0",
+    "content-hash": "b8a70529e2d5a021189f69ceac2be8ca",
     "packages": [
+        {
+            "name": "alanvdb/composer-project-name-validator-interfaces",
+            "version": "v2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Alanvdb/composer-project-name-validator-interfaces.git",
+                "reference": "323f0a7c85266d197824520e822101dbfd01a53f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Alanvdb/composer-project-name-validator-interfaces/zipball/323f0a7c85266d197824520e822101dbfd01a53f",
+                "reference": "323f0a7c85266d197824520e822101dbfd01a53f",
+                "shasum": ""
+            },
+            "require": {
+                "alanvdb/validator-interface": "^2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Alanvdb\\Composer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "alanvdb",
+                    "email": "alanvdb.coder@gmail.com"
+                }
+            ],
+            "description": "Validator interfaces for a composer project name validator.",
+            "support": {
+                "issues": "https://github.com/Alanvdb/composer-project-name-validator-interfaces/issues",
+                "source": "https://github.com/Alanvdb/composer-project-name-validator-interfaces/tree/v2.0"
+            },
+            "time": "2025-05-19T01:52:54+00:00"
+        },
         {
             "name": "alanvdb/validator-interface",
             "version": "v2.1.2",
