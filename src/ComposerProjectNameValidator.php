@@ -16,6 +16,6 @@ class ComposerProjectNameValidator
 
     public function isValid(mixed $value) : bool
     {
-        return is_string($value) ? (bool) preg_match('/^[a-z0-9]([_.-]?[a-z0-9]+)*\/[a-z0-9]([_.-]?[a-z0-9]+)*$/', $value) : false;
+        return is_string($value) ? (bool) preg_match('/^[a-z0-9]([_.-]?[a-z0-9]+)*\/[a-z0-9](([_.]|-{1,2})?[a-z0-9]+)*$/', $value) : false;
     }
 }
